@@ -1,0 +1,73 @@
+.bg-image {
+    background-size: cover;
+    background-position: start;
+    height: 100vh;
+}
+
+.button-otp {
+    background-color: #4C73C1;
+    color: white;
+}
+
+.button-otp:hover {
+    background-color: #042b7a;
+    color: white;
+    box-shadow: 0px 2px 37px 15px rgba(0, 0, 0, 0.75) inset;
+    -webkit-box-shadow: 0px 2px 37px 15px rgba(0, 0, 0, 0.75) inset;
+    -moz-box-shadow: 0px 2px 37px 15px rgba(0, 0, 0, 0.75) inset;
+
+}
+
+.button-back {
+    color: #4C73C1;
+}
+
+.button-back:hover {
+    color: #142e61;
+    text-shadow: 4px 4px 16px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 767px) {
+    .bg-image {
+        display: none;
+    }
+
+    .container-form {
+        background-image: url('images/image_gedung.jpeg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        padding: 20px;
+    }
+
+    .container-form2 {
+        background-color: #244296E6;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        width: 100%;
+        color: white;
+    }
+
+    .button-back {
+        color: white;
+    }
+
+    .button-back:hover {
+        color: #142e61;
+        text-shadow: 4px 4px 16px rgba(0, 0, 0, 0.6);
+    }
+
+    .container-judul {
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #email,
+    .button-otp,
+    #kode-otp {
+        width: 100% !important;
+    }
+}

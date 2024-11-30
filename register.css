@@ -1,0 +1,59 @@
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.container-kanan{
+  background: linear-gradient(180deg, #244296 36.58%, #0C1530 100%);
+    box-shadow: -3px 2px 22px 5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -3px 2px 22px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px 2px 22px 5px rgba(0,0,0,0.75);
+}
+
+.form-container{
+    margin-top: 10vh;
+}
+
+.margin-form {
+    margin-right: 170px;
+}
+.button-hvr {
+  background-color: #5caada;
+  color: white;
+}
+.button-hvr:hover {
+  text-shadow: 4px 4px 16px rgba(0,0,0,0.6);
+  background-color: #3092cf;
+}
+
+@media (max-width: 767px) {
+    .bg-image {
+      display: none; 
+    }
+  
+    .container-kanan {
+      background-image: url('images/image_gedung.jpeg'); 
+      background-size: cover;
+      background-position: center;
+      background-repeat: none;
+
+    }
+  
+    .form-container {
+      background: linear-gradient(180deg, #244296E6 36.58%, #0C1530 100%);
+      padding-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 20px;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    .margin-form {
+        width: 100%;
+    }
+  }
